@@ -788,3 +788,14 @@ button {
     }
 
 }
+/* Slower, smoother animations */
+
+*,
+*::before,
+*::after {
+    animation-duration: 10s !important;
+    animation-timing-function: ease-in-out !important;
+
+    transition-duration: 0.8s !important;
+    transition-timing-function: ease-in-out !important;
+}
